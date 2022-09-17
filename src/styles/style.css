@@ -1,0 +1,56 @@
+footer {
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px; /* Rounded border */
+    display: flex; /* Display the footer items as a flexbox */
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle; /* Align the icon with the text */
+    margin: 0 10px 0 25px; /* Add some space between the icon and the text, and add a tabulation */
+}
+
+
+
+.menu {
+    background-color: aqua;
+    list-style-type: none; /* Remove the bullet points */
+    display: flex; /* Display the menu items as a flexbox */
+}
+
+.sous-menu {
+    list-style-type: none; /* Remove the bullets from the sub-menu */
+    display: none; /* Hide the sub-menu by default */
+}
+
+.menu > li{
+    border: 1px solid black; /* Add a border to the menu items */
+    width: 20%; /* Set the width of the menu items */
+    text-align: center; /* Center the text */
+    padding: auto;
+}
+
+
+
+
+/* Screen bigger than 600px */
+@media screen and (min-width: 600px) {
+    footer {
+        flex-direction: row; /* Arrange the footer items in a row */
+        justify-content: space-around; /* Space the footer items evenly */
+        gap: 40%; /* Add a gap between the footer items */
+    }
+}
+
+/* Screen smaller than 600px */
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column; /* Arrange the footer items in a column */
+        gap: 0; /* Remove the gap between the footer items */
+    }
+
+    .info {
+        margin-left: 5%;
+    }
+}
