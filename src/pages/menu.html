@@ -5,21 +5,23 @@
     <meta charset="utf-8">
     <title>Menu</title>
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" href="../images/casbt.png">
+    <script type="text/javascript" src="../scripts/script.js"></script>
+
 </head>
 
-<body>
-    <ul class="menu">
-        <li>Actualité</li>
-        <li>Mes démarches en ligne</li>
-        <li>Administration</li>
-        <li>Gestion
-            <ul class="sous-menu">
-                <li>Déchets</li>
-                <li>Eau</li>
-            </ul>
-        </li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</body>
+
+<ul class="menu" id="machin">
+    <li>Actualité</li>
+    <li>Mes démarches en ligne</li>
+    <li>Administration</li>
+    <li>Gestion
+        <ul class="sous-menu">
+            <li>Déchets</li>
+            <li>Eau</li>
+        </ul>
+    </li>
+    <li onclick="sendLink('#contact');">Contact</li>
+</ul>
 
 </html>

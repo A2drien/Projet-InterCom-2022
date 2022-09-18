@@ -21,31 +21,22 @@ footer {
 .menu {
     background-color: aqua;
     list-style-type: none; /* Remove the bullet points */
-    display: flex; /* Display the menu items as a flexbox */
     padding: 0px; /* To correct the box problem of the navbar */
-    height: 40px;
 }
 
 .sous-menu {
     list-style-type: none; /* Remove the bullets from the sub-menu */
-    display: none; /* Hide the sub-menu by default */
 }
 
 .menu > li, .sous-menu > li {
     border: 1px solid black; /* Add a border to the menu items */
-    width: 20%; /* Set the width of the menu items */
     text-align: center; /* Center the text */
-    padding:auto;
+    padding: 10px; /* Add some space between the menu items */
 }
 
 .menu > li:hover, .sous-menu > li:hover {
     background-color: green; /* Change the background color of the menu items and the sub-menu when the mouse is over them */
 }
-
-.menu > li:hover > .sous-menu {
-    display: block; /* Display the sub-menu when the mouse is over the menu item */
-}
-
 
 
 /* Screen bigger than 600px */
@@ -54,6 +45,22 @@ footer {
         flex-direction: row; /* Arrange the footer items in a row */
         justify-content: space-around; /* Space the footer items evenly */
         gap: 40%; /* Add a gap between the footer items */
+    }
+
+    .menu {
+        display: flex; /* Display the menu items as a flexbox */
+    }
+
+    .sous-menu{
+        display: none; /* Hide the sub-menu by default */
+    }
+
+    .menu > li, .sous-menu > li {
+        width: 20%; /* Set the width of the menu items */
+    }
+
+    .menu > li:hover > .sous-menu {
+        display: block; /* Display the sub-menu when the mouse is over the menu item */
     }
 }
 
