@@ -17,6 +17,7 @@ footer {
     background-color: aqua;
     list-style-type: none; /* Remove the bullet points */
     display: flex; /* Display the menu items as a flexbox */
+    padding-left: 0px; /* Remove the padding */
 }
 
 .sous-menu {
@@ -24,13 +25,20 @@ footer {
     display: none; /* Hide the sub-menu by default */
 }
 
-.menu > li{
+.menu > li, .sous-menu > li {
     border: 1px solid black; /* Add a border to the menu items */
     width: 20%; /* Set the width of the menu items */
     text-align: center; /* Center the text */
     padding: auto;
 }
 
+.menu > li:hover, .sous-menu > li:hover {
+    background-color: green; /* Change the background color of the menu items and the sub-menu when the mouse is over them */
+}
+
+.menu > li:hover > .sous-menu {
+    display: block; /* Display the sub-menu when the mouse is over the menu item */
+}
 
 
 
