@@ -11,12 +11,24 @@ footer {
     margin: 0 10px 0 25px; /* Add some space between the icon and the text, and add a tabulation */
 }
 
+#logo{
+    width: 10%;
+    height: 10%;
+}
+
 
 
 .menu {
     background-color: aqua;
     list-style-type: none; /* Remove the bullet points */
     display: flex; /* Display the menu items as a flexbox */
+    padding: 0%; /* To correct the box problem of the navbar */
+    height: 40px;
+}
+
+nav ul {
+    display: table;
+    text-align: center;
 }
 
 .sous-menu {
@@ -28,7 +40,7 @@ footer {
     border: 1px solid black; /* Add a border to the menu items */
     width: 20%; /* Set the width of the menu items */
     text-align: center; /* Center the text */
-    padding: auto;
+    padding:auto;
 }
 
 
