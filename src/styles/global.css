@@ -65,6 +65,7 @@ footer {
         flex-direction: row; /* Arrange the footer items in a row */
         justify-content: space-around; /* Space the footer items evenly */
         gap: 40%; /* Add a gap between the footer items */
+        margin-top:20px;
     }
 
     .menu {
