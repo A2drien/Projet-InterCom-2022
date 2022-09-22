@@ -1,1 +1,15 @@
 
+.video-container {
+	border : 2px solid red;
+}
+
+iframe {
+	width:60%;
+	height:300px;
+}
+
+@media screen and (max-width:600px) {
+	iframe{
+		height:180px;
+	}
+}
