@@ -1,13 +1,7 @@
-function sendLink(link) {
-    window.location.href = link;
-}
+$(document).ready(function () {
+    console.log("ready!");
 
-// Change the header to add in the HTML code in ../pages/menu.html
-function importHeader() {
-    //document.getElementById("truc").innerHTML = importHTML("../pages/menu.html");
-    $("#truc").load('menu.html #machin');
-}
-
-window.onload = function () {
-    importHeader();
-};
+    $('footer').load("../pages/factoring/footer.html");
+    $('header').load("../pages/factoring/menu.html");
+    $('#news').load("../pages/factoring/news.html");
+});
