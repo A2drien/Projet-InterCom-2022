@@ -46,6 +46,7 @@ footer {
 #main-content {
 	border: 2px solid;
 	width: 60%;
+	margin-bottom: 20px;
 }
 
 #main-content > *{
@@ -54,7 +55,8 @@ footer {
 
 #news {
 	border: 2px solid;
-	width:30%
+	width:30%;
+	margin-bottom: 20px;
 }
 
 
@@ -101,6 +103,5 @@ footer {
 	
 	#main-content, #news{
 		width:100%;
-		margin-bottom: 20px;
 	}
 }
