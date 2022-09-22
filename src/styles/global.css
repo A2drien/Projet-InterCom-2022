@@ -38,6 +38,26 @@ footer {
     background-color: green; /* Change the background color of the menu items and the sub-menu when the mouse is over them */
 }
 
+#little-body {
+	display:flex;
+	justify-content: space-around;
+}
+
+#main-content {
+	border: 2px solid;
+	width: 60%;
+}
+
+#main-content > *{
+	text-align:center;
+}
+
+#news {
+	border: 2px solid;
+	width:30%
+}
+
+
 
 /* Screen bigger than 600px */
 @media screen and (min-width: 600px) {
@@ -74,4 +94,13 @@ footer {
     .info {
         margin-left: 5%;
     }
+	
+	#little-body{
+		flex-direction:column;
+	}
+	
+	#main-content, #news{
+		width:100%;
+		margin-bottom: 20px;
+	}
 }
