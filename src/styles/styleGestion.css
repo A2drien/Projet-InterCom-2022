@@ -1,0 +1,28 @@
+#corps{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div{
+    font-family: "Helvetica";
+}
+
+#news{
+    border:1px solid black;
+}
+
+#boxlink{
+    border: 2px solid black;
+    width: 200px;
+    height: 90px;
+    list-style-type: none;
+}
+
+#boxlink > ul{
+    list-style-type: none;
+}
+
+ul > li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
