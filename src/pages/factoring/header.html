@@ -1,17 +1,22 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/header.css">
+</head>
+
 <div>
     <img src="../images/casbt.png" id="logo">
 </div>
-<nav>
-    <ul class="menu">
-        <li>Actualité</li>
-        <li>Mes démarches en ligne</li>
-        <li>Administration</li>
-        <li>Gestion
-            <ul class="sous-menu">
-                <li>Déchets</li>
-                <li>Eau</li>
-            </ul>
-        </li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+
+<div class="navbar">
+    <a href="#">Actualités</a>
+    <a href="#">Mes démarches en ligne</a>
+    <a href="#">Administration</a>
+    <div class="dropdown">
+        <a href="#" class="dropbtn">Gestion</a>
+        <div class="dropdown-content">
+            <a href="#"> Gestion des déchets </a>
+            <a href="#"> Gestion de l'eau </a>
+        </div>
+    </div>
+    <a href="#"> Contact </a>
+</div>
