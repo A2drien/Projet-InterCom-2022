@@ -1,7 +1,12 @@
-$(document).ready(function () {
-    console.log("ready!");
+const PATH_FACTORING = "../pages/factoring/"
 
-    $('footer').load("../pages/factoring/footer.html");
-    $('header').load("../pages/factoring/header.html");
-    $('#news').load("../pages/factoring/news.html");
+$(document).ready(function () {
+    init();
 });
+
+// Importe le header, la page de news à droite et le footer
+function init() {
+    $('footer').load(PATH_FACTORING + "footer.html");
+    $('header').load(PATH_FACTORING + "header.html");
+    $('#news').load(PATH_FACTORING + "news.html");
+}
