@@ -7,7 +7,7 @@ body{
     color:white;
 }
 
-h2, h3, p, ul li{
+h2, h3, p, ul li, a{
     font-family: 'Inter Tight', sans-serif;
 }
 
@@ -23,8 +23,6 @@ footer {
     vertical-align: middle; /* Align the icon with the text */
     margin: 0 10px 0 25px; /* Add some space between the icon and the text, and add a tabulation */
 }
-
-
 
 .menu {
     background-color: aqua;
