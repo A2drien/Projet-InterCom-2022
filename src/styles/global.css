@@ -149,3 +149,7 @@ img, iframe, div {
         display: none;
     }
 }
+
+.article-bg{
+    background-color: #172A3A;
+}
