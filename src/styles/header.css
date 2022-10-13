@@ -97,10 +97,6 @@
         flex-direction: column;
     }
 
-    .dropdown-content{
-        position: inherit;
-    }
-
     .dropdown > a{
         display: none;
     }
