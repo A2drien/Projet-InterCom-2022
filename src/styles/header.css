@@ -1,4 +1,4 @@
-/*Note : trouver comment faire une navbar demain*/
+
 
 /* Navbar container */
 .navbar {
@@ -27,26 +27,32 @@
 }
 
 /* Dropdown button */
-.dropdown .dropbtn {
+.dropdown .dropdown-button {
     font-size: 16px;
     border: none;
     outline: none;
     color: white;
+    text-align: center;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+    width:100%;
+}
 
+.dropdown-button {
+    display: none;
 }
 
 /* Add a green background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover {
     background-color: #2E8B57;
 }
 
+
 /* Dropdown content (hidden by default) */
-.dropdown-content {
-    display: none;
+.dropdown .dropdown-content {
+    /*display: none;*/
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -55,7 +61,7 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown .dropdown-content a {
     background-color: #DCDCDC;
     float: none;
     color: black;
@@ -71,8 +77,15 @@
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+/*.dropdown:hover .dropdown-content {
     display: block;
+}*/
+
+@media screen and (min-width:800px){
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 }
 
 .navbar > a, .dropdown{
@@ -87,7 +100,18 @@
     .dropdown-content{
         position: inherit;
     }
+
+    .dropdown > a{
+        display: none;
+    }
+
+    .dropdown-button{
+        display: block;
+    }
+
+
 }
 
-
-
+.hide{
+    display: none;
+}

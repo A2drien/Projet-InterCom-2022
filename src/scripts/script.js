@@ -5,3 +5,6 @@ $(document).ready(function () {
     $('header').load("../pages/factoring/header.html");
     $('#news').load("../pages/factoring/news.html");
 });
+
+
+

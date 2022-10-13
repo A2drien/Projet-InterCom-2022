@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../styles/header.css">
+    <script href="../../script/testScript.js"></script>
+    <link rel="stylesheet" href="../../styles/header.css">
 </head>
 
 <div id="head">
@@ -16,11 +17,28 @@
     <a href="demarches.html">Mes démarches en ligne</a>
     <a href="administration.html">Administration</a>
     <div class="dropdown">
-        <a href="gestion.html" class="dropbtn">Gestion</a>
-        <div class="dropdown-content">
+        <button class="dropdown-button"> Gestion </button>
+        <a href="gestion.html">Gestion</a>
+        <div class="dropdown-content hide">
             <a href="gestion.html#GestionDechets"> Gestion des déchets </a>
             <a href="gestion.html#GestionEau"> Gestion de l'eau </a>
         </div>
     </div>
     <a href="#contact"> Contact </a>
 </div>
+
+<script>
+    const dropdownBtn = document.querySelector(".dropdown-button");
+    const dropdownMenu = document.querySelector(".dropdown-content");
+
+    dropdownBtn.addEventListener("click",() =>{
+        dropdownMenu.classList.toggle("hide");
+    });
+
+    window.addEventListener("click", (e) => {
+        console.log(e.target);
+        if(e.target !== dropdownBtn){
+            dropdownMenu.classList.add("hide");
+        }
+    });
+</script>
