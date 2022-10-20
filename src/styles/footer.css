@@ -1,0 +1,16 @@
+footer {
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px; /* Rounded border */
+    display: flex; /* Display the footer items as a flexbox */
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle; /* Align the icon with the text */
+    margin: 0 10px 0 25px; /* Add some space between the icon and the text, and add a tabulation */
+}
+
+p {
+    margin : 0;
+}
