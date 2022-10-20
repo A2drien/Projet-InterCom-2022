@@ -11,6 +11,11 @@ h2, h3, p, ul li, a{
     font-family: 'Inter Tight', sans-serif;
 }
 
+
+h2, h3{
+ text-align: center;
+}
+
 footer {
     background-color: rgb(211, 211, 211);
     border-radius: 10px; /* Rounded border */
