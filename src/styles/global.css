@@ -11,6 +11,14 @@ h2, h3, p, ul li, a{
     font-family: 'Inter Tight', sans-serif;
 }
 
+p {
+    padding: 0% 4%;
+}
+
+ul {
+    padding: 0% 8%;
+}
+
 
 h2, h3{
  text-align: center;
@@ -60,17 +68,7 @@ footer {
 	margin-bottom: 20px;
 }
 
-#main-content > article > h2 {
-	padding: 0% 2%;
-}
 
-#main-content > article > p {
-    padding: 0% 4%;
-}
-
-#main-content > article > ul {
-    padding: 0% 8%;
-}
 
 #news {
 	border: 2px solid;
