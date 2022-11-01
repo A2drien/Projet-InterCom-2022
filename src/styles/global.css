@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;700&display=swap');
 
 body{
-    background-image: url("../images/guadeloupe.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-image: url("../images/guadeloupe.jpg"); 
+    background-repeat: no-repeat; /* The background will be a single fixed image */
+    background-attachment: fixed; /* The background will be a single fixed image */
+    background-size: 100% 100%; /* The background will be a single fixed image */
 }
 
 h2, h3, p, ul li, a, figcaption{
@@ -12,20 +12,20 @@ h2, h3, p, ul li, a, figcaption{
 }
 
 h2, h3, p, ul li, figcaption{
-    color : white;
+    color : white; /* Put the text in white */
 }
 
 p {
-    padding: 0% 4%;
+    padding: 0% 4%; /* Add space between the edge of the block and the text*/
 }
 
 ul {
-    padding: 0% 8%;
+    padding: 0% 8%; /* Add space between the edge of the block and the text*/
 }
 
 
-h2, h3{
- text-align: center;
+h2, h3, figcaption{ 
+ text-align: center; /* Center texts */
 }
 
 .menu {
@@ -49,35 +49,31 @@ h2, h3{
 }
 
 #little-body {
-	display:flex;
-	justify-content: space-around;
+	display:flex; /* Separate the main-content and the news */
+	justify-content: space-around; 
 }
 
 #main-content {
-	border: 2px solid white;
-	width: 60%;
-	margin-bottom: 20px;
+	border: 2px solid white; /* Add a border */
+	width: 60%; /* Define the width of the bloc */
+	margin-bottom: 20px; /* Add some blank space below the block */
 }
 
 
 
 #news {
-	border: 2px solid white;
-	width:30%;
-	margin-bottom: 20px;
+	border: 2px solid white; /* Add a border */
+	width:30%; /* Define the width of the bloc */
+	margin-bottom: 20px; /* Add some blank space below the block */
 }
 
 img, iframe, div {
-    border-radius: 10px;
+    border-radius: 10px; /* Round corners of differents blocks */
 }
 
 img, iframe {
-    display: block;
-    margin: 0 auto;
-}
-
-figcaption{
-    text-align: center;
+    display: block; /* Display as a block */
+    margin: 0 auto; /* Center the block */
 }
 
 /* Screen bigger than 800px */
@@ -97,46 +93,18 @@ figcaption{
     .menu > li:hover > .sous-menu {
         display: block; /* Display the sub-menu when the mouse is over the menu item */
     }
-
-    .logo{
-        width: 225px;
-        height: 150px;
-    }
-
-    #title {
-        display: inline-block;
-        margin: auto;
-    }
-    
-    #head{
-        display: flex;
-        justify-content: space-around;
-    }
 }
 
 /* Screen smaller than 800px */
 @media screen and (max-width: 800px) {
 	#little-body{
-		flex-direction:column;
+		flex-direction:column; /* Display the children verticaly */
 	}
 	
 	#main-content, #news{
-		width:100%;
+		width:100%; /* Set the witdh at maximum */
 	}
 
-    #title{
-        text-align: center;
-    }
-
-    /*Center the image*/
-    #logo-1{
-        display: block;
-        margin: auto;
-    }
-
-    #logo-2{
-        display: none;
-    }
 }
 
 .article-bg{
