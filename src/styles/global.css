@@ -54,7 +54,7 @@ h2, h3{
 }
 
 #main-content {
-	border: 2px solid;
+	border: 2px solid white;
 	width: 60%;
 	margin-bottom: 20px;
 }
@@ -62,7 +62,7 @@ h2, h3{
 
 
 #news {
-	border: 2px solid;
+	border: 2px solid white;
 	width:30%;
 	margin-bottom: 20px;
 }
