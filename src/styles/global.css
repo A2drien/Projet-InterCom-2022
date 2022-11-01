@@ -98,12 +98,9 @@ figcaption{
         display: block; /* Display the sub-menu when the mouse is over the menu item */
     }
 
-    
-
     .logo{
         width: 225px;
         height: 150px;
-        margin: 0 25px;
     }
 
     #title {
