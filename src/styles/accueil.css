@@ -1,11 +1,11 @@
+/* Set the size of the video */
 iframe {
 	width:60%;
 	height:300px;
-
 }
 
 @media screen and (max-width:600px) {
 	iframe{
-		height:180px;
+		height:180px; /* Change the size of the video for a mobile format */
 	}
 }

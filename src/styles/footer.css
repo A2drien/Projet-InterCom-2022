@@ -1,15 +1,15 @@
 footer {
     background-color: #20caa0;
-    border-radius: 10px; /* Rounded border */
+    border-radius: 10px; /* Round borders */
     display: flex; /* Display the footer items as a flexbox */
     justify-content: space-around;
     gap: 40%; /* Add a gap between the footer items */
-    margin-top:20px;
-    border : 2px solid black;
+    margin-top:20px; /* Add some space above the footer */
+    border : 2px solid black; /* Add a black border */
 }
 
 .info h3 {
-    color: black;
+    color: black; /* Display the text as black */
 }
 
 .icon {
@@ -20,7 +20,7 @@ footer {
 }
 
 .info{
-    flex-grow: 1;
+    flex-grow: 1; /* Make the item take the most space possible */
 }
 
 .info p {
@@ -36,7 +36,7 @@ footer {
     }
 
     .info {
-        margin-left: 5%;
+        margin-left: 5%; /* Add some space at the left of the item */
     }
 }
 
