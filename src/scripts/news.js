@@ -23,14 +23,5 @@ function randomArticle() {
 function init() {
     let numRandomArticles = randomArticle();
     $("#random-article-1").load(PATH_ARTICLES + "article-" + numRandomArticles[0] + ".html");
-    
-    // Afficher le contenu de l'article 1 dans un console.log
-    $.get(PATH_ARTICLES + "article-" + numRandomArticles[0] + ".html", function (data) {
-        console.log(data);
-    });
-
-    console.log($(".navbar").html());
-    
-    
     $("#random-article-2").load(PATH_ARTICLES + "article-" + numRandomArticles[1] + ".html");
 }
