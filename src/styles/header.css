@@ -1,5 +1,5 @@
 #head {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.4); /* Add a black transparent background */
     border: 1px solid black;
     margin: 1% 2%;
 }
@@ -56,7 +56,6 @@
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-    /*display: none;*/
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -79,11 +78,6 @@
 .dropdown-content a:hover {
     background-color: #2E8B57;
 }
-
-/* Show the dropdown menu on hover */
-/*.dropdown:hover .dropdown-content {
-    display: block;
-}*/
 
 @media screen and (min-width:800px){
     /* Show the dropdown menu on hover */
