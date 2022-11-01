@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white;
+    background-size: auto 100%;
 }
 
 h2, h3, p, ul li, a, figcaption{
