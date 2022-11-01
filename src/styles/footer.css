@@ -5,6 +5,9 @@ footer {
     justify-content: space-around;
     gap: 40%; /* Add a gap between the footer items */
     margin-top:20px;
+}
+
+.info h3 {
     color: black;
 }
 

@@ -11,6 +11,10 @@ h2, h3, p, ul li, a, figcaption{
     font-family: 'Inter Tight', sans-serif;
 }
 
+h2, h3, p, ul li, figcaption{
+    color : white;
+}
+
 p {
     padding: 0% 4%;
 }
