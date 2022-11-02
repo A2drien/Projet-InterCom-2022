@@ -25,7 +25,8 @@ ul {
 
 
 h2, h3, h4, figcaption{ 
- text-align: center; /* Center texts */
+    text-align: center; /* Center texts */
+    text-decoration: underline; /* Underline texts */
 }
 
 ul > li{
