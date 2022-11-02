@@ -9,3 +9,13 @@ ul li::before {
 article {
     padding: 5px 0 5px 0;
 }
+
+table, td ,th {
+    text-align: center;
+    border : 1px solid white;
+    margin : 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
