@@ -7,7 +7,7 @@ body{
     background-size: 100% 100%; /* The background will be a single fixed image */
 }
 
-h2, h3, p, ul li, a, figcaption{
+h2, h3, h4, p, ul li, a, figcaption{
     font-family: 'Inter Tight', sans-serif;
 }
 
@@ -24,7 +24,7 @@ ul {
 }
 
 
-h2, h3, figcaption{ 
+h2, h3, h4, figcaption{ 
  text-align: center; /* Center texts */
 }
 
