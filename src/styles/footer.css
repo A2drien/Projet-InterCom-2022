@@ -8,10 +8,6 @@ footer {
     border : 2px solid black; /* Add a black border */
 }
 
-.info h3 {
-    color: black; /* Display the text as black */
-}
-
 .icon {
     width: 30px;
     height: 30px;
