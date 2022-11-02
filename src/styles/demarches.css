@@ -5,3 +5,7 @@ ul li {
 ul li::before {
     content: "→";
 }
+
+article {
+    padding: 5px 0 5px 0;
+}
