@@ -9,8 +9,8 @@ $(document).ready(function () {
 function ConsEau(){
     let nbPers = $('#nbP').val();
     let minD = $('#minD').val();
-    let EpMois = Eppers * nbPers + Epdouche * minD * nbJ;
+    let EpMois = (Eppers * nbPers) + (Epdouche * minD * nbJ) ;
 
-    $('#EstiEau').text('Vous allez consommer en moyenne ' + EpMois + ' litre par mois.');
+    $('#EstiEau').text('Vous allez consommer en moyenne ' + EpMois + ' litres par mois.');
 }
 
