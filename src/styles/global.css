@@ -81,6 +81,17 @@ img, iframe {
     margin: 0 auto; /* Center the block */
 }
 
+#Ceau{
+    display: flex;
+    flex-direction: column;
+}
+
+#Ceau > * {
+    margin : 10px auto;
+    text-align: center;
+    width: 50%;
+}
+
 /* Screen bigger than 800px */
 @media screen and (min-width: 800px) {
     .menu {
